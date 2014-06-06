@@ -1,6 +1,6 @@
 # use "yapm install ." if you're installing this from git repository
 
-name: sinopia
+name: finn-forked-sinopia
 version: 0.8.1
 description: Private npm repository server
 
@@ -64,7 +64,7 @@ engines:
 preferGlobal: true
 
 publishConfig:
-  registry: https://registry.npmjs.org/
+  registry: http://npm.finntech.no/internal
 
 license:
   type: WTFPL
