@@ -2,10 +2,21 @@
 storage: ./storage
 
 # a list of users
+#
+# This could be deprecated soon, use "users_file" instead.
 users:
   admin:
     # crypto.createHash('sha1').update(pass).digest('hex')
     password: __PASSWORD__
+
+title: Sinopia
+# logo: logo.png
+
+users_file: ./htpasswd
+
+# Maximum amount of users allowed to register, defaults to "+inf".
+# You can set this to 0 to disable registration.
+#max_users: 1000
 
 # a list of other known repositories we can talk to
 uplinks:
