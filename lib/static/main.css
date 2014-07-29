@@ -14,9 +14,9 @@ body {
 .decoration {
   background-image: url(http://m.finn.no/static/images/83a87185.sprite_mFINN_12.png)!important;
   background-repeat: no-repeat!important;
-  position: absolute;
-  top: 10%;
-  left: 30%;
+  position: relative;
+  top: 100px;
+  left: 140px;
 }
 
 /*** Sourced from this Gist: https://gist.github.com/andyferra/2554919 ***/
@@ -583,7 +583,6 @@ a:hover {
 header {
   position: fixed;
   width: 100%;
-  
   top: 0;
   z-index: 1;
 }
