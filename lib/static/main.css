@@ -1,3 +1,24 @@
+body {
+  background-color: #e9eff5;
+}
+.decoration.our-logo {
+  background-position: 0 0;
+  height: 37px;
+  width: 72px;
+  display: block;
+  margin: 5px auto 0;
+}
+.decoration.logo, .decoration.our-logo {
+  background-position: 0 -1px;
+}
+.decoration {
+  background-image: url(http://m.finn.no/static/images/83a87185.sprite_mFINN_12.png)!important;
+  background-repeat: no-repeat!important;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
 /*** Sourced from this Gist: https://gist.github.com/andyferra/2554919 ***/
 .readme a {
   color: #4183C4;
@@ -562,7 +583,7 @@ a:hover {
 header {
   position: fixed;
   width: 100%;
-  background: #FFF;
+  
   top: 0;
   z-index: 1;
 }
