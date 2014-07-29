@@ -16,7 +16,7 @@ body {
   background-repeat: no-repeat!important;
   position: relative;
   top: 100px;
-  left: 140px;
+  left: -140px;
 }
 
 /*** Sourced from this Gist: https://gist.github.com/andyferra/2554919 ***/
