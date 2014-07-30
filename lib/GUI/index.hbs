@@ -18,7 +18,8 @@
 					<article id='setup'>
 						<p>Welcome to the FINN.no registry!</p>
 						<code>npm set registry {{ baseUrl }}</code><br>
-						<code>npm adduser --registry {{ baseUrl }}</code>
+						<code>npm set always-auth true</code>
+						<code>npm set ca null</code>
 					</article>
 				</div>
 
@@ -50,5 +51,8 @@
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script type='text/javascript' src='./-/static/main.js'></script>
+		<footer>
+			Powered by: <a href="https://github.com/rlidwka/sinopia">Sinopia</a>
+		</footer>
 	</body>
 </html>
