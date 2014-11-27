@@ -1,4 +1,72 @@
 
+25 Nov 2014, version 0.13.3
+
+- fix broken `es6-shim` dependency (issue [#169](https://github.com/rlidwka/sinopia/pull/169))
+
+1 Nov 2014, version 0.13.2
+
+- fix `EPERM`-related crashes on windows (issue [#67](https://github.com/rlidwka/sinopia/issues/67))
+
+22 Oct 2014, version 0.13.0
+
+- web interface:
+  - web page layout improved (issue [#141](https://github.com/rlidwka/sinopia/pull/141))
+  - latest version is now displayed correctly (issues [#120](https://github.com/rlidwka/sinopia/issues/120), [#123](https://github.com/rlidwka/sinopia/issues/123), [#143](https://github.com/rlidwka/sinopia/pull/143))
+  - fixed web interface working behind reverse proxy (issues [#145](https://github.com/rlidwka/sinopia/issues/145), [#147](https://github.com/rlidwka/sinopia/issues/147))
+
+2 Oct 2014, version 0.12.1
+
+- web interface:
+  - update markdown CSS (issue [#137](https://github.com/rlidwka/sinopia/pull/137))
+  - jquery is now served locally (issue [#133](https://github.com/rlidwka/sinopia/pull/133))
+
+- bugfixes:
+  - fix "offset out of bounds" issues (issue [sinopia-htpasswd/#2](https://github.com/rlidwka/sinopia-htpasswd/issues/2))
+  - "max_users" in htpasswd plugin now work correctly (issue [sinopia-htpasswd/#3](https://github.com/rlidwka/sinopia-htpasswd/issues/3))
+  - fix `ENOTDIR, open '.sinopia-db.json'` error in npm search (issue [#122](https://github.com/rlidwka/sinopia/issues/122))
+
+25 Sep 2014, version 0.12.0
+
+- set process title to `sinopia`
+
+- web interface bugfixes:
+  - save README data for each package (issue [#100](https://github.com/rlidwka/sinopia/issues/100))
+  - fix crashes related to READMEs (issue [#128](https://github.com/rlidwka/sinopia/issues/128))
+
+18 Sep 2014, version 0.11.3
+
+- fix 500 error in adduser function in sinopia-htpasswd (issue [#121](https://github.com/rlidwka/sinopia/issues/121))
+- fix fd leak in authenticate function in sinopia-htpasswd (issue [#116](https://github.com/rlidwka/sinopia/issues/116))
+
+15 Sep 2014, version 0.11.1
+
+- mark crypt3 as optional (issue [#119](https://github.com/rlidwka/sinopia/issues/119))
+
+15 Sep 2014, version 0.11.0
+
+- Added auth plugins (issue [#99](https://github.com/rlidwka/sinopia/pull/99))
+
+  Now you can create your own auth plugin based on [sinopia-htpasswd](https://github.com/rlidwka/sinopia-htpasswd) package.
+
+- WIP: web interface (issue [#73](https://github.com/rlidwka/sinopia/pull/73))
+
+  It is disabled by default, and not ready for production yet. Use at your own risk. We will enable it in the next major release.
+
+- Some modules are now bundled by default, so users won't have to install stuff from git. We'll see what issues it causes, maybe all modules will be bundled in the future like in npm.
+
+14 Sep 2014, version 0.10.x
+
+*A bunch of development releases that are broken in various ways. Please use 0.11.x instead.*
+
+7 Sep 2014, version 0.9.3
+
+- fix several bugs that could cause "can't set headers" exception
+
+3 Sep 2014, version 0.9.2
+
+- allow "pretty" format for logging into files (issue [#88](https://github.com/rlidwka/sinopia/pull/88))
+- remove outdated user existence check (issue [#115](https://github.com/rlidwka/sinopia/pull/115))
+
 11 Aug 2014, version 0.9.1
 
 - filter falsey _npmUser values (issue [#95](https://github.com/rlidwka/sinopia/pull/95))
